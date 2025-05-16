@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agrinho: Celebrando a Conexão Campo-Cidade</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Estilos gerais */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f0f8f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #fff;
+      font-size: 2em;
+    }
+
+    main {
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #2E7D32;
+      margin-bottom: 15px;
+    }
+
+    /* Fotos com acessibilidade */
+    .photos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 8px;
+    }
+
+    figcaption {
+      margin-top: 8px;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    /* Estilos para os textos */
+    p {
+      margin-bottom: 15px;
+      text-align: justify;
+    }
+
+    /* Opiniões - estilo diferenciado */
+    .opiniao {
+      background-color: #e8f5e9;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      border-left: 5px solid #66bb6a;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    /* Acessibilidade: foco visível */
+    a:focus,
+    button:focus,
+    input:focus {
+      outline: 3px dashed #ffeb3b;
+      outline-offset: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Agrinho: Celebrando a Conexão entre Campo e Cidade</h1>
+  </header>
+
+  <main>
+    <!-- Seção de Introdução -->
+    <section>
+      <h2>Sobre o Tema</h2>
+      <p>
+        O projeto Agrinho busca fortalecer a relação entre as áreas rurais e urbanas, promovendo o entendimento e a valorização das diferenças e semelhanças entre o campo e a cidade. Essa conexão é fundamental para o desenvolvimento sustentável, a troca de conhecimentos e a preservação cultural de nossas regiões.
+      </p>
+    </section>
+
+    <!-- Fotos reais com acessibilidade -->
+    <section>
+      <h2>Imagens do Nosso Brasil</h2>
+      <div class="photos" aria-label="Fotos do campo e da cidade">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Paisagem rural com plantações verdes ao pôr do sol" />
+          <figcaption>Campo com plantações verdes ao entardecer</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Rua de uma cidade com edifícios modernos" />
+          <figcaption>Rua movimentada de uma cidade moderna</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1609480094394-0f2e79a9a3e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Família no campo com crianças brincando na natureza" />
+          <figcaption>Família aproveitando a natureza no campo</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Mercado urbano com pessoas comprando frutas e verduras" />
+          <figcaption>Mercado na cidade com produtos frescos</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Opiniões -->
+    <section>
+      <h2>Opiniões sobre a Conexão Campo-Cidade</h2>
+      
+      <div class="opiniao">
+        <h3>Opinião 1</h3>
+        <p>
+          "A integração entre o campo e a cidade enriquece nossas culturas e fortalece a economia local. Quando comunidades rurais e urbanas trabalham juntas, todos saem ganhando, promovendo um desenvolvimento mais equilibrado e sustentável."
+        </p>
+      </div>
+
+      <div class="opiniao">
+        <h3>Opinião 2</h3>
+        <p>
+          "Apesar das diferenças, a conexão entre campo e cidade é essencial para entender nossas raízes e enfrentar os desafios do futuro. É importante valorizar o que cada um tem de melhor e aprender uns com os outros para construir uma sociedade mais justa e integrada."
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Projeto Agrinho. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
