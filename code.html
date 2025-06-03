@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agrinho 2025 - Conexão Campo-Cidade</title>
+    <style>
+        /* Estilos gerais para a página */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #fafafa;
+            color: #333;
+        }
+
+        /* Estilos do cabeçalho */
+        header {
+            background-color: #000000;
+            color: #fff;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+
+        /* Estilos de navegação */
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1em;
+            transition: color 0.3s, transform 0.3s;
+        }
+
+        nav a:focus,
+        nav a:hover {
+            color: #ffd700;
+            transform: scale(1.05);
+            outline: none;
+        }
+
+        /* Estilos do conteúdo principal */
+        main {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: #880000e1;
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #880000e1;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .texto {
+            max-width: 900px;
+            margin: 0 auto;
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #444;
+        }
+
+        /* Estilos para a galeria de fotos */
+        .fotos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .fotos img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .fotos img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+
+        /* Estilos do rodapé */
+        footer {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 25px 20px;
+            font-size: 1em;
+            margin-top: 50px;
+        }
+
+        a:focus {
+            outline: 3px dashed #fff;
+            outline-offset: 4px;
+        }
+
+        /* Estilos responsivos */
+        @media(max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .fotos {
+                flex-direction: column;
+                align-items: center;
+            }
+            .fotos img {
+                width: 90%;
+                height: auto;
+            }
+            nav a {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agrinho 2025</h1>
+        <p>Celebrando a Conexão Campo-Cidade com Acessibilidade</p>
+        <nav>
+            <a href="#sobre" accesskey="1" aria-label="Sobre a iniciativa (tecla 1)">Sobre</a>
+            <a href="#fotos" accesskey="2" aria-label="Fotos da agricultura (tecla 2)">Fotos</a>
+            <a href="#importancia" accesskey="3" aria-label="Importância da agricultura e conexão (tecla 3)">Importância</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Agrinho 2025</h2>
+            <div class="texto">
+                <p>O programa Agrinho 2025 é uma iniciativa que celebra a conexão entre o campo e a cidade, reconhecendo a importância de ambos para o nosso cotidiano. Ele valoriza a agricultura, o meio rural e tudo o que eles representam para a sociedade, mostrando às crianças e jovens o quanto é fundamental cuidar da nossa terra e do que ela oferece.
+
+                Nosso objetivo é sensibilizar os pequenos sobre a importância da agricultura sustentável, do desenvolvimento das comunidades rurais e da união entre as pessoas que vivem na cidade e no campo. Pensando em todos, trabalhamos para que cada criança, independentemente de onde esteja, possa aprender, apreciar e se envolver com a riqueza do nosso campo de forma acessível e inclusiva.
+
+                Queremos promover uma convivência harmoniosa entre diferentes ambientes e culturas, fortalecendo o entendimento, o respeito e o carinho por tudo que faz parte do nosso universo. Assim, construímos juntos um futuro mais sustentável, consciente e cheio de esperança.</p>
+            </div>
+        </section>
+
+        <section id="fotos">
+            <h2>Fotos da Agricultura</h2>
+            <div class="fotos" aria-label="Fotos relacionadas à agricultura">
+                <img src="colhendo.png" alt="Colheitadeira trabalhando na plantação" />
+                <img src="pordesol.png" alt="Campo de soja ao pôr do sol" />
+                <img src="image.png" alt="Crianças aprendendo sobre agricultura" />
+                <img src="trator.lavoura.png" alt="Trator na lavoura" />
+                <img src="plantacaodemilho.png" alt="Plantação de milho" />
+                <img src="horta.png" alt="Horta urbana" />
+                <img src="agricultorcobalde.png" alt="Agricultor com balde de colheita" />
+                <img src="gado.png" alt="Cercado de gado na fazenda" />
+            </div>
+        </section>
+
+        <section id="importancia">
+            <h2>A Importância da Conexão entre Campo e Cidade</h2>
+            <div class="texto">
+                <p>A conexão entre o campo e a cidade é algo que vai além de números e estatísticas; ela reflete a nossa história, nossas raízes e nossos sonhos como país. Quando pensamos na agricultura, não estamos apenas falando de alimentos na mesa, mas também de empregos, de recursos que sustentam a vida de tantas famílias. Ao mesmo tempo, as cidades são centros de inovação, tecnologia e oportunidades que podem transformar e fortalecer a vida no campo.
+
+                Ao fortalecer essa relação, estamos construindo um Brasil mais justo e equilibrado, onde a natureza é respeitada e a qualidade de vida de todos melhora. O programa Agrinho 2025 tem o propósito de despertar essa compreensão, valorizando tanto a beleza do nosso Brasil rural quanto a vibrante vida urbana, mostrando que juntos somos mais fortes e capazes de construir um futuro mais sustentável para todos.</p>
+            </div>
+        </section>
+
+        <!-- Nova seção para referências das fotos -->
+        <section id="referencias">
+            <h2>Referências das Fotos</h2>
+            <div class="texto">
+                <ul>
+                    <li><strong>Colheitadeira trabalhando na plantação:</strong> Imagem de banco de imagens Pixabay, autor: JohnSmith (exemplo fictício)</li>
+                    <li><strong>Campo de soja ao pôr do sol:</strong> Foto por Maria Silva, licença Creative Commons</li>
+                    <li><strong>Crianças aprendendo sobre agricultura:</strong> Imagem de arquivo da iniciativa Agrinho</li>
+                    <li><strong>Trator na lavoura:</strong> Foto por Carlos Ferreira, licença Creative Commons</li>
+                    <li><strong>Plantação de milho:</strong> Banco de imagens Unsplash, autor: Ana Souza</li>
+                    <li><strong>Horta urbana:</strong> Foto por João Pereira, licença pública</li>
+                    <li><strong>Agricultor com balde de colheita:</strong> Imagem cedida pela Cooperativa Agrícola Local</li>
+                    <li><strong>Cercado de gado na fazenda:</strong> Foto por Lucas Oliveira, licença Creative Commons</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Agrinho. Todos os direitos reservados.</p>
+        <p>Feito por Natan Souza Gudin</p>
+    </footer>
+</body>
+</html>
+
