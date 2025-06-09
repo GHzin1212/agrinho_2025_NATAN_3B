@@ -91,7 +91,6 @@ footer {
   margin-top: 2em;
 }
 
-/* Estilos de acessibilidade: modo de alto contraste */
 
 body.high-contrast {
   background-color: #000 !important;
