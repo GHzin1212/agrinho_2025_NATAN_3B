@@ -1,4 +1,4 @@
-# Porjeto Agrinho 2025 - "Festejando a conexão campo-cidade"
+# Projeto Agrinho 2025 - "Festejando a conexão campo-cidade"
 Site sobre a importância da relação e interdependência entre o campo e o ambiente urbano.
 
 # Recursos utilizados:
